@@ -15,11 +15,11 @@ fun calculateCaffeeLevel() {
         println("(Energetic, Okay, Tired, KO)")
         tiredLevel = readLine()!!
         if (tiredLevel == "Energetic") {
-            continue
+            tiredLevel = "Energetic"
         } else if (tiredLevel == "Okay") {
-            continue
+            tiredLevel = "Okay"
         } else if (tiredLevel == "Tired") {
-            continue
+            tiredLevel = "Tired"
         } else if (tiredLevel == "KO") {
             tiredLevel = "KO"
         } else {
